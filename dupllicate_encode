@@ -1,0 +1,23 @@
+def duplicate_encode(word):
+    word=word.lower()
+    print(word)
+    word2=list(word)
+    index = -1
+    index2= -1
+    count = 0
+    for c in word:
+        index2 +=1
+        count =0
+        index = -1
+        for c2 in word:
+            index+=1
+            if (c == word[index]):
+                count+=1
+        if (count == 1):
+            word2[index2]='('
+        else: 
+            word2[index2]=')'
+    word3="".join(word2)       
+    return word3
+
+print(duplicate_encode('I!y(@m)@'))
