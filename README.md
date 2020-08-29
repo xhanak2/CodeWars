@@ -14,7 +14,7 @@ In DNA strings, symbols "A" and "T" are complements of each other, as "C" and "G
 DNA_strand ("ATTGC") # return "TAACG"
 DNA_strand ("GTAT") # return "CATA"
 
-##Printer Errors
+## Printer Errors
 The colors used by the printer are recorded in a control string. For example a "good" control string would be aaabbbbhaijjjm meaning that the printer used three times color a, four times color b, one time color h then one time color a...
 Sometimes there are problems: lack of colors, technical malfunction and a "bad" control string is produced e.g. aaaxbbbbyyhwawiwjjjwwm with letters not from a to m.
 You have to write a function printer_error which given a string will return the error rate of the printer as a string representing a rational whose numerator is the number of errors and the denominator the length of the control string. Don't reduce this fraction to a simpler expression.
@@ -24,3 +24,10 @@ s="aaabbbbhaijjjm"
 error_printer(s) => "0/14"
 s="aaaxbbbbyyhwawiwjjjwwm"
 error_printer(s) => "8/22"
+
+## Vowels
+Trolls are attacking your comment section!
+A common way to deal with this situation is to remove all of the vowels from the trolls' comments, neutralizing the threat.
+Your task is to write a function that takes a string and return a new string with all vowels removed.
+For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
+Note: for this kata y isn't considered a vowel.
