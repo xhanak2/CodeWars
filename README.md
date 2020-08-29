@@ -31,3 +31,6 @@ A common way to deal with this situation is to remove all of the vowels from the
 Your task is to write a function that takes a string and return a new string with all vowels removed.
 For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
 Note: for this kata y isn't considered a vowel.
+
+## Sum of 2 lowest numbers
+Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or non-positive integers will be passed. For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 7.
