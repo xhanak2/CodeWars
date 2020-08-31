@@ -34,3 +34,9 @@ Note: for this kata y isn't considered a vowel.
 
 ## Sum of 2 lowest numbers
 Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or non-positive integers will be passed. For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 7.
+
+## Vasya-Clerk
+The new "Avengers" movie has just been released! There are a lot of people at the cinema box office standing in a huge line. Each of them has a single 100, 50 or 25 dollar bill. An "Avengers" ticket costs 25 dollars.
+Vasya is currently working as a clerk. He wants to sell a ticket to every single person in this line.
+Can Vasya sell a ticket to every person and give change if he initially has no money and sells the tickets strictly in the order people queue?
+Return YES, if Vasya can sell a ticket to every person and give change with the bills he has at hand at that moment. Otherwise return NO.
