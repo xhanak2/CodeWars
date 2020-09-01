@@ -1,12 +1,18 @@
 def order(sentence):
-    word=''
-    words=[]
-    for c in sentence:
-        if c!=' ': word+=c
-        else: words.append(word); print(word); word=''
+    if len(sentence)>0:
+        sentence+=' '
+        count=0
+        word=''
+        words=['','','','','','','','','']
+        for c in sentence:
+            if (c!=' '): 
+                word+=c
+                if c in '123456789':index=int(c)
+            else: words[index]=word;word='';count+=1
+        finalstring=' '.join(words[:count+1])
+        return finalstring[1:]
+    else: return ""
+
     
-    for word in words:
-        print(word)
-
-
-order("Toto je testovaci veta")
+print(order("To3to j1e tes4tovaci ve2ta"))
+print(order(""))
