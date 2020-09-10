@@ -43,3 +43,6 @@ Return YES, if Vasya can sell a ticket to every person and give change with the 
 
 ## Consecutive Fib numbers
 There is a given number and you have to find two consecutive Fibonacci numbers f1 and f2 where f1*f2=given number. If exist return true if not false
+
+## Bouncing balls
+The ball is falling from high h and bounce with parametre bounce. How many times is visible from window in height windows
