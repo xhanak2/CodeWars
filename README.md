@@ -52,3 +52,8 @@ Return: a string formatted as a list of names separated by commas except for the
 
 ## Int To Romans
 Convert integer to Romans
+
+## Duration in seconds To Human Speach
+COnvert integer(seconds to human readable format. Ex.4 years, 66 days, 13 hours, 40 minutes and 30 seconds
+
+
