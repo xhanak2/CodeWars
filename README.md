@@ -56,4 +56,5 @@ Convert integer to Romans
 ## Duration in seconds To Human Speach
 COnvert integer(seconds to human readable format. Ex.4 years, 66 days, 13 hours, 40 minutes and 30 seconds
 
-
+## Observed PIN
+Variations of PINs on keypad (like PIN with error posibility) 
